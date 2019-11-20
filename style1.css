@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .header {
+    background: #003f5c;
+    font-style: italic;
+  }
+  
+  .footer {
+    background: #58508d;
+    font-style: italic
+  }
+  
+  .main {
+    text-align: left;
+    background: #bc5090;
+    font-style: italic
+  }
+  
+  .aside-1 {
+    background:#ff6361;
+    font-style: italic
+  }
+    .aside { flex: 1 0 0; }
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .footer  { order: 3; }
+  
+  
+  body {
+    padding: 2em; 
+  }
